@@ -111,7 +111,7 @@ def weights_matrice(m,n):
 def sigmoide(z_i):
     return 1/(1+np.exp(-z_i))
 
-# normaliser poids
+
 def softmax(array):
     return (np.exp(array - array.max()))/np.sum(np.exp(array - array.max()))
 
